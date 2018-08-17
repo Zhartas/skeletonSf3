@@ -1,0 +1,10 @@
+# FRONT
+home_local:
+    path:    /{_locale}/
+    defaults: { _controller: AppBundle:Home:index }
+    requirements:
+      _locale: fr
+
+home:
+    path:    /
+    defaults: { _controller: AppBundle:Home:index }

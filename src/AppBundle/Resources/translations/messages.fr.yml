@@ -1,0 +1,9 @@
+og:
+    title: title
+    description: description
+    type: website
+    site_name: site_name
+    url: url
+    keywords: keywords
+error:
+    404: Erreur 404

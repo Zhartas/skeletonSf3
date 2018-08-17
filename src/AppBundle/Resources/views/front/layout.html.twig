@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ asset('css/front/core.css') }}" />
+    {% block head_layout %}{% endblock %}
+{% endblock %}
+
+{% block body %}
+    {% block body_layout %}{% endblock %}
+{% endblock %}
+
+{% block js %}
+    <script type="text/javascript" src="{{ asset('js/front/core.js') }}"></script>
+    {% block js_layout %}{% endblock %}
+{% endblock %}
